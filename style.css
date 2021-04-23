@@ -147,12 +147,13 @@ footer div{
     background-color: rgba(124, 101, 255, 0.1);
 }
 
-.history article{
+.history article, .places article{
     display: flex;
     flex-wrap: wrap;
 }
-.history-side{
+.history-side, .places article div{
    align-self: center;
+   text-align: left;
     flex: 1;
 }
 
@@ -167,8 +168,40 @@ footer div{
     height: 100%;
 }
 
+.places article{
+    background-color: rgb(219, 219, 219);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 40px 20px 6px;
+    margin: 20px;
+    border-radius: 6px;
+}
 
 
+.places a{
+    color: rgb(255, 0, 0);
+}
+
+.places article p{
+    min-width: 400px;
+}
+
+.link-a{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 5% 20px 5%;
+    justify-content: space-evenly;
+}
+
+
+.links{
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
 
 
 
@@ -323,7 +356,9 @@ button{
     }
 }
 
-
+h3{
+    text-align: center;
+}
 
 
 
