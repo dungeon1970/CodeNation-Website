@@ -199,7 +199,6 @@ h1{
     width: 44%;
     height: auto;
     border-radius: 16px;
-    
     background-color: rgb(202, 202, 202);
 }
 
@@ -289,6 +288,10 @@ button{
     #slider p{
         top: 8vh;
         left: 20vw;
+    }
+
+    .blog{
+        width: 90%;
     }
 
 }
