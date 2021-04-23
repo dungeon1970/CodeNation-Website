@@ -163,12 +163,17 @@ footer div{
     padding: 10px;
 }
 
+.img-div:hover{
+    position: absolute;
+
+}
 .history-img{
     border-radius: 10px;
     height: 100%;
 }
 
 .places article{
+    position: relative;
     background-color: rgb(219, 219, 219);
     display: flex;
     flex-wrap: wrap;
@@ -193,7 +198,6 @@ footer div{
     justify-content: space-evenly;
 }
 
-
 .links{
     color: rgb(255, 255, 255);
     font-size: 36px;
@@ -202,14 +206,6 @@ footer div{
     padding: 8px;
     margin-bottom: 10px;
 }
-
-
-
-
-
-
-
-
 
 #blog-wrapper{
     display: flex;
@@ -257,7 +253,6 @@ h1{
     margin-top: 18px;
     height: 214px;
     overflow: auto;
-
 }
 
 #blog-form{
@@ -298,18 +293,6 @@ button{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 768px) {
     .menu ul{
         min-width: auto;
@@ -322,11 +305,11 @@ button{
         top: 8vh;
         left: 20vw;
     }
-
-
 }
-@media only screen and (max-width: 920px) {
 
+
+
+@media only screen and (max-width: 920px) {
     #slider p{
         top: 21vh;
         left: 20vw;
@@ -359,20 +342,6 @@ button{
 h3{
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
